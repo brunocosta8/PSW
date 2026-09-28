@@ -23,7 +23,7 @@ Xlr = w*Llr;
 Xm  = w*Lm;
  
 %% Escorregamento (1000 pontos, evitando s = 0)
-s = linspace(1, 0.001, 1000);
+s = linspace(1, -1, 1000);
  
 %% Circuito equivalente
 Zr  = Rr./s + 1j*Xlr;                  % ramo do rotor
